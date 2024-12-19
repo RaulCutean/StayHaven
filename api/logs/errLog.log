@@ -1,0 +1,89 @@
+ObjectParameterError	Parameter "filter" to findOne() must be an object, got "a@gmail.com" (type string)	POST	/register	http://localhost:5173MongooseError	Operation `users.findOne()` buffering timed out after 10000ms	POST	/register	http://localhost:5173MongooseError	Operation `users.findOne()` buffering timed out after 10000ms	POST	/register	http://localhost:5173MongooseError	Operation `users.findOne()` buffering timed out after 10000ms	POST	/register	http://localhost:51732024:11:14	21:25:54	5d18817d-5be5-4cc8-9ea8-f1d78ece2640	ValidationError	User validation failed: password: Path `password` is required.	POST	/register	http://localhost:5173
+2024:11:14	21:26:36	90249a63-2b4d-408b-bdd9-b6f3889e4e62	ValidationError	User validation failed: password: Path `password` is required.	POST	/register	http://localhost:5173
+2024:11:14	21:30:08	add27fad-4d3c-4904-8644-bd22f9b832a6	RangeError	Invalid status code: { message: 'User created successfully' }	POST	/register	http://localhost:5173
+2024:11:16	19:03:48	6429343a-778a-4125-a473-a5e35bdeaee3	ObjectParameterError	Parameter "filter" to findOne() must be an object, got "a@a.com" (type string)	POST	/login	http://localhost:5173
+2024:11:16	19:25:02	486ae98f-b539-4163-aba8-5aca4f676cf9	ReferenceError	jwt is not defined	POST	/login	http://localhost:5173
+2024:11:16	20:31:38	44575a45-85dd-40a9-ad32-1309634f39df	ReferenceError	token is not defined	POST	/login	http://localhost:5173
+2024:11:16	21:13:02	4fa1e8b0-1b58-44cf-a31d-2ed902c66b86	Error	data and hash arguments required	POST	/login	http://localhost:5173
+2024:11:16	21:14:06	8dd1e507-838e-42ac-8394-c1e675f57311	Error	data and hash arguments required	POST	/login	http://localhost:5173
+2024:11:16	21:43:59	f8d1ba15-5edf-44c7-aecb-15c7456d4ac3	TypeError	Cannot destructure property 'token' of 'req.cookies' as it is undefined.	GET	/profile	http://localhost:5173
+2024:11:16	21:43:59	ed9f3a3f-d717-4633-a35d-d87f0f24cc5c	TypeError	Cannot destructure property 'token' of 'req.cookies' as it is undefined.	GET	/profile	http://localhost:5173
+2024:11:16	21:46:12	16a8799d-46c2-4428-b4ca-9332a2da0ec2	TypeError	Cannot destructure property 'token' of 'req.cookies' as it is undefined.	GET	/profile	http://localhost:5173
+2024:11:16	21:46:12	2d04376f-6751-4d35-b5a0-ae8f45993691	TypeError	Cannot destructure property 'token' of 'req.cookies' as it is undefined.	GET	/profile	http://localhost:5173
+2024:11:16	21:52:55	cd037f4b-018f-4267-af48-21b924cc1c66	ReferenceError	jwt is not defined	GET	/profile	http://localhost:5173
+2024:11:16	21:52:55	822d4e13-c56e-4d21-94d3-4fa54e49ae4c	ReferenceError	jwt is not defined	GET	/profile	http://localhost:5173
+2024:11:16	21:54:00	4190ef39-f61f-4c39-990a-2b60b3eb2fdc	ReferenceError	jwt is not defined	GET	/profile	http://localhost:5173
+2024:11:16	21:54:00	389c1f9f-9194-47aa-a27c-a75d6818120f	ReferenceError	jwt is not defined	GET	/profile	http://localhost:5173
+2024:11:16	21:55:07	075eedd3-481e-435b-b2d7-d09ad59446f3	ReferenceError	jwt is not defined	GET	/profile	http://localhost:5173
+2024:11:16	21:55:07	51d4cc7b-df40-48b1-9552-38a6b12be935	ReferenceError	jwt is not defined	GET	/profile	http://localhost:5173
+2024:11:16	21:55:31	36d21277-bec0-4686-8982-2988029caba1	TypeError	Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle	GET	/profile	http://localhost:5173
+2024:11:16	21:55:31	b241c259-bfe6-42b6-9a96-82931c25dfab	TypeError	Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle	GET	/profile	http://localhost:5173
+2024:11:18	17:30:34	887cf5f5-da8c-4b1c-ba0c-b6e7664afe46	TypeError	argument name is invalid	POST	/logout	http://localhost:5173
+2024:11:18	17:30:54	413dc1dd-2d30-4c56-a9f5-631ad2d39f3e	TypeError	res.cookies is not a function	POST	/logout	http://localhost:5173
+2024:11:18	17:31:00	5b60d234-f41b-4f38-8b14-2058532732a3	TypeError	res.cookies is not a function	POST	/logout	http://localhost:5173
+2024:11:20	22:20:55	2d83737f-ff56-43a4-b40c-9b8eb4024373	ReferenceError	Cannot access 'newName' before initialization	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:21:05	024e6ec0-3d0e-4cd8-a18a-33ac6d35f35d	ReferenceError	Cannot access 'newName' before initialization	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:22:01	e5825301-ce10-4f53-b604-f565269efca7	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:22:40	af14b9ae-efb9-40db-8f99-07eb9c662085	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:23:25	38dd0366-4d31-4b78-a75c-ae636619b9fe	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:24:27	2f763f7e-710f-4858-8b6d-0fa8eac4c85e	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:29:54	3a53b21d-aa27-40a5-85c7-e45ac0092060	Error	ENOENT: no such file or directory, open 'D:\WEB\BookPlaces\api\controllers\uploads\1732134594468.jpg'	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:31:14	8114e0b0-dd17-49ce-91ef-c7acaf5b6ebc	Error	ENOENT: no such file or directory, open 'D:\WEB\BookPlaces\api\controllers\uploads\ba79df4c-7180-4baf-a90d-8acb78de4b0a.jpg'	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:42:36	a54638f5-e76f-4546-9d01-b2f5040d39f5	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:42:38	71e3266f-0e0b-423c-ac03-a81c8bc99e8d	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:43:04	24c112c8-0af6-41f9-89d4-119809e85014	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:44:11	e9577930-ecf8-4839-bf48-856e070035b6	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:44:18	9732f42e-b66b-4072-a8f8-6150845b07c0	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:44:18	f4b757ef-18f9-44e2-9686-be089d648f64	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:45:14	93e8075c-389d-480e-84d4-0a159e317461	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:45:20	992ee722-7014-4b14-a51a-c2a78dd7d2e9	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	22:50:38	072e6736-3d72-457a-9bf5-01b566fe6a9a	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:28	92af57e3-ba48-4bb9-b48b-ce114513a3a6	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:30	e0eb056d-b129-42d0-9e69-bce5f0e3797b	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:30	cdb21a81-e951-4226-b02a-df37f2baf811	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:31	71a0abcf-6a94-4bc8-8f62-5bc1d8ed7ac3	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:37	bcd579d1-bea0-49f4-9ee5-8628916673ff	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:39	4e677954-1d73-41c3-8ab5-28b5401d8e2b	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:40	013e64e8-75c9-46cc-baba-f10fbc209afa	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:20:41	f6ac2d28-7eba-453d-acc0-20a05733ad04	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:21:23	4f4ea8ab-b80d-41c6-b516-903c03897060	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:21:52	70dee440-2cb2-4bc1-92ce-224e2b1023b0	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:21:53	744700c8-402c-4ed9-b21f-32ef55b72c38	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:22:21	f5f80c64-13c7-43f5-b042-2566658711c8	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:22:44	7edb8244-0138-4ba8-8df1-fe4a3c651fa5	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:22:45	9da2b52d-8788-40fa-ba77-bacb6c1ce56e	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:22:45	a0d201b1-63be-48ac-98df-cb2dd45f5fc0	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:23:55	91912dd2-27de-4597-84f0-6166c011b7f1	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:23:56	01ef8747-899d-418a-805f-322c1504111b	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:23:56	9b321826-2ac7-4f0a-bd0c-7728513159f2	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:23:56	ec07f21b-4b2a-4661-8dc4-a31137aee9f4	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:23:57	966fda95-b0b1-4b8e-9e61-46e7b2c333e3	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:23:57	78ca2651-0d29-4b71-95ae-ed2670ab9025	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:24:20	2d10c0c4-bfa3-48f9-a835-e45a7f201b10	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:24:21	f2c25fc1-5250-4b0f-b5b0-70c7843846db	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:24:58	cc4ec569-63f8-4500-bb99-c9c6e7d4cf5c	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:20	23:24:58	413e9130-b477-407d-8dce-60dedc4bf02d	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:21	23:38:44	5d896eb8-9375-4bc8-b930-697ee4b57af2	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:21	23:39:23	84290265-1958-4fdc-9a3d-d8469e6bfd54	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:21	23:39:51	f0587ee8-a48d-4287-bf9c-7c4270c7a554	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:23	13:15:56	461bda9c-ed8e-43c8-b997-0c5b86663262	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:23	13:21:58	4dce187a-3247-4afe-8406-5b7feb0b1a60	Error	The options.url is required	POST	/upload-by-link	http://localhost:5173
+2024:11:23	14:06:18	79aaea8b-c375-4ec5-b233-86eb4a33be32	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\api\5d1fe39d784ba9887ef3437425cc2fb5' -> 'D:\WEB\BookPlaces\api\5d1fe39d784ba9887ef3437425cc2fb5.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	14:06:46	ba3e2ffe-b584-47c5-a1a8-6514752448bf	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\api\c53509a5657cfbd15a30b9d335987a97' -> 'D:\WEB\BookPlaces\api\c53509a5657cfbd15a30b9d335987a97.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	14:07:42	9bc04367-4acc-4be2-a83e-f96fda9abf22	TypeError	path.join is not a function	POST	/upload	http://localhost:5173
+2024:11:23	14:08:25	e0ca39f0-303b-4d85-bef2-d3e01746ae7b	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\apiuploads8ebd2c58499ec220f69553003ffb9405' -> 'D:\WEB\BookPlaces\api\8ebd2c58499ec220f69553003ffb9405.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	14:09:18	4ffc11de-1170-4f62-8780-53fb1eabd82c	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\apiuploads[object Object]' -> 'D:\WEB\BookPlaces\api\20d3c56cf1c78ad0a92ffe53ac3e1a13.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	14:09:36	2a3eefdc-72ad-4d07-b8cb-d591d786d03d	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\api\uploads\[object Object]' -> 'D:\WEB\BookPlaces\api\93c2991c5dfb670f29680392d65ec5ef.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	14:15:12	105cadd9-2357-4ee4-9ba5-edb91f41c35b	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\api\uploads\uploads\6fbe5aa900ebbfb4acb6a589edaee7c5' -> 'D:\WEB\BookPlaces\api\uploads\6fbe5aa900ebbfb4acb6a589edaee7c5.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	14:15:30	dbab68e9-f65b-4cf5-b141-9b905732e929	Error	ENOENT: no such file or directory, rename 'D:\WEB\BookPlaces\api\uploads\uploads\6c822c596aaa9cdc70b699bc57df60b6' -> 'D:\WEB\BookPlaces\api\uploads\6c822c596aaa9cdc70b699bc57df60b6.jpg'	POST	/upload	http://localhost:5173
+2024:11:23	17:18:44	5915c7f9-7354-4d09-b1c3-0517eaa29b4e	ReferenceError	data is not defined	POST	/places	http://localhost:5173
+2024:11:23	17:23:27	3652ab27-748c-445a-94e7-b08e54de026a	ReferenceError	data is not defined	POST	/places	http://localhost:5173
+2024:11:23	17:30:16	d120f54c-89b3-4999-b262-c5b45db511f8	ReferenceError	data is not defined	POST	/places	http://localhost:5173

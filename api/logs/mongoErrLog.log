@@ -1,0 +1,33 @@
+2024:11:16	18:50:57	86f93e03-0b22-40d6-87f4-1d979aa14ea3	undefined	undefined	undefined	undefined - 04550000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:19	17:50:59	248f40f1-6d1c-498e-bf5a-d71b13b13e44	undefined	ECONNREFUSED	querySrv	_mongodb._tcp.cluster0.xcraj.mongodb.net - querySrv ECONNREFUSED _mongodb._tcp.cluster0.xcraj.mongodb.net
+2024:11:22	09:27:54	b2a10adb-49f3-4ea5-919c-13e0ab8d3cb7	undefined	undefined	undefined	undefined - 44660000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:22	09:29:46	a9ff5990-88ee-49f7-ae8a-788feabd8638	undefined	undefined	undefined	undefined - E8400000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:22	09:30:51	bd2cbf4e-1a32-4577-a860-0bf4e2ae5464	undefined	undefined	undefined	undefined - D8340000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	16:56:05	6f3b40e5-7113-46a3-860d-7e501202d25e	undefined	undefined	undefined	undefined - E0730000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	16:59:58	4803e336-2156-4926-8b8e-49af126685cc	undefined	undefined	undefined	undefined - B45A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	17:08:13	c899a96f-905d-49fa-a9dc-0fe883261b5d	undefined	undefined	undefined	undefined - 903C0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	17:09:00	f2d3b699-87dc-4bcd-b713-13131f9e362c	undefined	undefined	undefined	undefined - 30260000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	17:10:03	1e5e8bdb-afb4-4f06-88c7-e37e4e92235f	undefined	undefined	undefined	undefined - CC700000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	17:13:08	3a94aa75-6561-4eb0-a8df-fbf557a188d0	undefined	undefined	undefined	undefined - 286C0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:11:26	17:13:43	22894cb2-b48a-4ffb-85a2-c86e08aa4678	undefined	undefined	undefined	undefined - 602B0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:12:01	16:35:38	d9a0e64c-6049-42f1-b59a-e5e62afcbae9	undefined	undefined	undefined	undefined - 8C220000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:12:03	17:36:03	e850de15-8dee-44ae-a420-6746125e45e0	undefined	undefined	undefined	undefined - DC4E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:12:03	17:37:15	8a2f74bf-2b6d-4d03-b6e7-8c6a00e7a930	undefined	undefined	undefined	undefined - 607F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:12:03	17:38:53	f0b9537b-770c-4c17-9c05-c0c0e84246bc	undefined	undefined	undefined	undefined - 786C0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+2024:12:03	23:37:51	5a248f18-46a9-477e-a25b-52c99170f695	undefined	undefined	undefined	undefined - 145B0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
